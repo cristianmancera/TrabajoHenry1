@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: solid 5px rgb(18,147,212);
+}
+.titulo{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 32.7%;
+}
+.t1{
+    color: white;
+}
+.t2{
+    color: rgb(18,147,212);
+}
+nav{
+    width: 30%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.blue{
+    color: rgb(18,147,212);
+}
+.imagen{
+    background-image: url(/images/cabecera.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imagen h2{
+    font-size: 60px;
+}
+.imagen p{
+    width: 80%;
+    font-size: 19px;
+    margin-top: 20px;
+    text-align: center;
+}
+.busqueda{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.objetosBusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(232,73,29);
+    border: none;
+    color: white;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+.cajalogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.item{
+    text-align: center;
+    width: 30%;
+}
+.item img{
+    width: 30%;
+}
+footer{
+    background-color:rgb(18,147,212) ;
+    height: 97px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*NOSOTROS*/
+.cuerpoNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+.cajaNosotros{
+    background-color: rgb(53,66,74);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+.cuerpo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 6rem;
+}
+.cajaNosotros p{
+    width: 95%;
+}
+.izquierda{
+    width: 60%;
+    height: 29.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pocillo{
+    width: 100%;
+}
+.derecha{
+    height: 15rem;
+    width: 25%;
+    background-color: rgb(53,66,74);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cajalado{
+    width: 90%;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.cajalado p{
+    width: 90%;
+}
