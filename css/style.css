@@ -46,7 +46,7 @@ a{
     color: rgb(18,147,212);
 }
 .imagen{
-    background-image: url(/images/cabecera.jpg) ;
+    background-image: url(../images/cabecera.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
@@ -96,7 +96,6 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 280px;
 }
 .cajalogos{
     display: flex;
@@ -108,6 +107,7 @@ button{
 .item{
     text-align: center;
     width: 30%;
+    margin: 20px 0 20px 0;
 }
 .item img{
     width: 30%;
@@ -127,6 +127,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     padding: 15px;
+    align-items: flex-start;
 }
 .cajaNosotros{
     background-color: rgb(53,66,74);
@@ -134,20 +135,20 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7rem;
+    margin: 20px 0 20px 0;
 }
 .cuerpo{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 6rem;
+    padding: 1% 0 1% 0;
 }
 .cajaNosotros p{
     width: 95%;
 }
 .izquierda{
     width: 60%;
-    height: 29.25rem;
+    padding: 2% 0 2% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -156,7 +157,7 @@ footer{
     width: 100%;
 }
 .derecha{
-    height: 15rem;
+    padding: 1% 0 1% 0;
     width: 25%;
     background-color: rgb(53,66,74);
     color: white;
@@ -175,6 +176,7 @@ footer{
 }
 .cajalado p{
     width: 90%;
+    padding: 1% 0 1% 0;
 }
 
 /*SERVICIOS*/
@@ -187,14 +189,14 @@ footer{
 }
 .izquierdas{
     width: 70%;
-    height: 29.25rem;
+    padding: 2% 0 2% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .contenidoS{
     background-color: rgb(230, 230,230);
-    height: 9rem;
+    padding: 1% 0 1% 0;
     border: 3px solid rgb(225, 225, 225);
     display: flex;
     align-items: center;
@@ -255,7 +257,7 @@ footer{
     background-color: rgb(53,66,74);
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 2% 0 2% 0;
     margin-bottom: 10px;
 }
 .letras{
@@ -270,4 +272,119 @@ footer{
 .cajaladoc .letras p{
     width: 90%;
     text-align: justify;
+}
+.imagen h2{
+    text-align: center;
+}
+.mapa{
+    padding: 10% 0 10% 0;
+    width: 100%;
+    height: 100%;
+}
+.map{
+    height: 25rem;
+}
+
+@media (max-width: 1140px){
+    .cajalogos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+    }
+    .logos{
+        margin: 20px 0 20px 0;
+    }
+    .item{
+        text-align: center;
+        width: 30%;
+    }
+    .item img{
+        width: 60%;
+    }
+    .item p{
+        font-size: 150%;
+    }
+}
+@media (max-width:1068px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .titulo{
+        font-size: 40px;
+        flex-direction: row;
+        width: 50%;
+    }
+    .t1{
+        color: white;
+    }
+    .t2{
+        color: rgb(18,147,212);
+    }
+    nav{
+        width: 60%;
+    }
+    .item{
+        width: 70%;
+    }
+    .item img{
+        width: 40%;
+    }
+    .derecha{
+        padding: 10% 0 10% 0;
+        width: 25%;
+        background-color: rgb(53,66,74);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .izquierda p{
+        padding: 2% 0 2% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cajaladoc{
+        padding: 10% 0 10% 0;
+    }
+
+}
+@media (max-width:834px){
+    .titulo{
+        font-size: 40px;
+        flex-direction: row;
+        width: 80%;
+    }
+    .cajaladoc{
+        padding: 60% 0 60% 0;
+    }
+    .derecha{
+        padding: 15% 0 15% 0;
+        width: 25%;
+        background-color: rgb(53,66,74);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cajaNosotros{
+        padding: 10% 0 10% 0;
+    }
+    .cuerpoNosotros{
+        font-size: 100%;
+        padding: 5% 0 5% 0;
+    }
+    .cuerpo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 5% 0 5% 0;
+    }
 }
